@@ -33,6 +33,10 @@ li span {
   display: block;
   font-size: 4.5rem;
 }
+#head {
+  font-size: 50px;
+
+}
 .merrywrap {
   position: absolute;
   right: 40px;
@@ -63,13 +67,15 @@ li span {
   position: absolute;
   color: #fff;
   width: 100%;
+  height: 100%;
   content: "Click Me!";
   left: 0;
   bottom: 0;
   font-size: 24px;
   text-align: center;
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
   transform-origin: 0 0;
+  cursor: pointer;
 }
 .giftbox .cover {
   width: 100%;
@@ -152,7 +158,7 @@ li span {
   animation: flyUp 2s ease-in forwards;
 }
 .step-2 .giftbox .box {
-  animation: flyDown 2s ease-in 0.05s forwards;
+  animation: flyDown 2s ease-in 0,05s forwards;
 }
 @keyframes wobble {
   25% {
