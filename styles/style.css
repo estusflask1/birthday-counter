@@ -187,10 +187,3 @@ li span {
  }
 }
 
-@media (max-width: 46.1875em) {
-  .merrywrap {
-    height: 10px;
-    width: 10px;
-  }
-
-}
