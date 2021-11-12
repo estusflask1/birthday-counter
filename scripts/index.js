@@ -488,7 +488,7 @@ x = setInterval(function() {
 
     function showfireworks() {
       canvasC.style.display = 'initial';
-      setTimeout(anim, 2000);
+      setTimeout(anim, 2100);
     }
 
     init();
