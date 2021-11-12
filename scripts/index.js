@@ -4,7 +4,7 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'nov 11, 2021',
+  birthdate: 'nov 25, 2021',
   name: 'Nguyễn Anh Thư'
 };
 
@@ -494,8 +494,8 @@ x = setInterval(function() {
     init();
   }
 
-  // if (distance < 0) {
-  //     clearInterval(x);
-  //     console.log("happy birthday");
-  // }
+   if (distance < 0) {
+       clearInterval(x);
+     console.log("happy birthday");
+}
 }, second);
