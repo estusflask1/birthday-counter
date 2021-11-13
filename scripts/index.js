@@ -4,8 +4,8 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'nov 11, 2021',
-  name: 'Nguyễn Anh Thư'
+  birthdate: 'nov 25, 2021',
+  name: '   Nguyễn Anh Thư'
 };
 
 function hideEverything() {
@@ -48,10 +48,11 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
-      charSize: 30,
-      charSpacing: 35,
-      lineHeight: 40,
+      strings: ['HAPPY', '  BIRTHDAY!',config.name,'      Many blessings to you!'],
+      charSize: 40, 
+      // khoảng cách giữa các chữ
+      charSpacing: 32, 
+      lineHeight: 50,
 
       cx: w / 2,
       cy: h / 2,
@@ -459,7 +460,7 @@ x = setInterval(function() {
     let merrywrap = document.getElementById('merrywrap');
     let box = merrywrap.getElementsByClassName('giftbox')[0];
     let step = 1;
-    let stepMinutes = [2000, 2000, 1000, 1000];
+    let stepMinutes = [2000, 2000, 1000, 5000];
 
     function init() {
       box.addEventListener('click', openBox, false);
