@@ -5,7 +5,7 @@ const canvasC = document.getElementById('c');
 
 const config = {
   birthdate: 'nov 25, 2021',
-  name: '   Nguyễn Anh Thư'
+  name: '   Aisha <3 :)'
 };
 
 function hideEverything() {
